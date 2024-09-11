@@ -186,33 +186,47 @@ header {
 	padding-bottom: 4rem;
 	color: rgba(128, 128, 128, 0.479);
 }
-ul {
-	padding-bottom: 1rem;
+.border-plans ul {
+    padding-left: 0.5rem;
+
 }
-ul li {
-	list-style: none;
+.border-plans li {
 	font-size: 0.8rem;
 	padding-bottom: 1rem;
 }
-ul li::before {
-	content: "\2022";
-	padding-right: 0.5rem;
-}
+
 .user {
 	text-align: center;
 	font-size: 0.8rem;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
-	border-top: 1px solid rgba(128, 128, 128, 0.479);
 	border-bottom: 1px solid rgba(128, 128, 128, 0.479);
 	font-weight: bold;
 }
 .or{
     padding-top: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+
+    
 }
 .border-plans {
     border: 1px solid rgba(128, 128, 128, 0.479);
 
 
 }
-/* end main  */
+.plans h5{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.points-container li::before{
+    content: "✓";
+    color: blue;
+
+}
+
+.points-container ul{ 
+    list-style-type: none;
+    padding-left: 0.5rem;
+}
