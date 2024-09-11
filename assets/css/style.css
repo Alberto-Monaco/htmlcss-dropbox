@@ -79,8 +79,8 @@
 	width: 100%;
 }
 img:not(.jumbo) {
-    max-width: 100%;
-  }
+	max-width: 100%;
+}
 /* end utilities  */
 body {
 	min-width: 1080px;
@@ -139,17 +139,17 @@ header {
 	font: bold;
 }
 .container-width p {
-    text-align: start;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+	text-align: start;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
 }
 .jumbo {
-    width: 120%;
-    margin-bottom: -7rem;
-    padding-top: 2rem;
+	width: 120%;
+	margin-bottom: -7rem;
+	padding-top: 2rem;
 }
 .arrow-down {
-    width: 20%;
-    padding-top: 2rem;
+	width: 20%;
+	padding-top: 2rem;
 }
 /* end main */
