@@ -27,11 +27,11 @@
 /* utilities  */
 .container-width {
 	padding-top: 5rem;
-	max-width: 65%;
+	max-width: 75%;
 	margin: 0 auto;
 }
 .container {
-	max-width: 50%;
+	max-width: 60%;
 	margin: 0 auto;
 }
 .row {
@@ -78,9 +78,9 @@
 .col-12 {
 	width: 100%;
 }
-img {
-	max-width: 100%;
-}
+img:not(.jumbo) {
+    max-width: 100%;
+  }
 /* end utilities  */
 body {
 	min-width: 1080px;
@@ -131,17 +131,21 @@ header {
 
 /* main */
 .site-main {
-	min-height: 700px;
 	background-color: #b4d0e7;
 }
 .container-width h1 {
 	text-align: start;
-	font-size: 3.6rem;
+	font-size: 3.5rem;
 	font: bold;
 }
 .container-width p {
     text-align: start;
-    font-size: 1.2rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
+.jumbo {
+    width: 120%;
+    margin-bottom: -7rem;
+    padding-top: 2rem;
+}
+/* end main */
