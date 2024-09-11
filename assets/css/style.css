@@ -1,8 +1,11 @@
+/* common */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+/* end common */
+/* DEBUG */
 .debug * {
 	border: 1px dashed black;
 }
@@ -18,3 +21,6 @@
 	min-height: 100px;
 	background-color: blue;
 }
+
+/* endDEBUG */ 
+
