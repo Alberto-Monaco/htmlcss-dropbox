@@ -53,7 +53,7 @@
     width: calc((100% / 12) * 5);
 }
 .col-6{
-    width: calc((100% / 12) * 6);
+    width: 50%;
 }
 .col-7{
     width: calc((100% / 12) * 7);
@@ -71,8 +71,12 @@
     width: calc((100% / 12) * 11);
 }
 .col-12{
-    width: calc((100% / 12) * 12);
+    width: 100%;
 }
 /* end utilities  */
+body{
+    min-width: 1440px;
+}
+
 
 
