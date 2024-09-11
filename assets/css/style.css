@@ -172,7 +172,6 @@ header {
 	padding-bottom: 2rem;
 }
 .plans h4 {
-    
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 	font-size: 2rem;
@@ -187,8 +186,7 @@ header {
 	color: rgba(128, 128, 128, 0.479);
 }
 .border-plans ul {
-    padding-left: 0.5rem;
-
+	padding-left: 0.5rem;
 }
 .border-plans li {
 	font-size: 0.8rem;
@@ -203,30 +201,54 @@ header {
 	border-bottom: 1px solid rgba(128, 128, 128, 0.479);
 	font-weight: bold;
 }
-.or{
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
-
-    
+.or {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.479);
 }
 .border-plans {
-    border: 1px solid rgba(128, 128, 128, 0.479);
-
-
+	border: 1px solid rgba(128, 128, 128, 0.479);
 }
-.plans h5{
-    padding-top: 4rem;
-    padding-bottom: 1rem;
+.plans h5 {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
 }
 
-.points-container li::before{
-    content: "✓";
-    color: blue;
-
+.points-container li::before {
+	content: "✓";
+	color: blue;
 }
 
-.points-container ul{ 
-    list-style-type: none;
-    padding-left: 0.5rem;
+.points-container ul {
+	list-style-type: none;
+	padding-left: 0.5rem;
+}
+.justify-content-between {
+	justify-content: space-between;
+	display: flex;
+	align-items: start;
+}
+.text-container {
+	width: 60%;
+}
+
+.solution {
+	padding-top: 3rem;
+}
+.margin {
+	margin-top: 2rem;
+}
+.top-bar {
+	text-align: center;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button-container {
+    margin-top: -4rem;
+	margin-right: 3rem;
 }
