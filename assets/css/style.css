@@ -130,6 +130,7 @@ header {
 /* end header  */
 
 /* main */
+/* first section  */
 .site-main {
 	background-color: #b4d0e7;
 }
@@ -152,4 +153,19 @@ header {
 	width: 20%;
 	padding-top: 2rem;
 }
+/* second section  */
+.plans {
+margin-top: 7rem;
+}
+.container h3 {
+    padding-bottom: 2rem;
+    font-size: 2.6rem;
+}
+.yearly {
+    padding-left: 3rem;
+}
+.monthly {
+    padding-left: 1.5rem;
+}
+
 /* end main */
