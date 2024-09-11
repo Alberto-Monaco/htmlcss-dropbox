@@ -28,11 +28,11 @@
 .container-width {
 	padding-top: 5rem;
 	max-width: 75%;
-	margin: 0 auto;
+	margin: auto;
 }
 .container {
-	max-width: 60%;
-	margin: 0 auto;
+	max-width: 65%;
+	margin: auto;
 }
 .row {
 	display: flex;
@@ -155,17 +155,64 @@ header {
 }
 /* second section  */
 .plans {
-margin-top: 7rem;
+	margin-top: 7rem;
 }
 .container h3 {
-    padding-bottom: 2rem;
-    font-size: 2.6rem;
+	padding-bottom: 2rem;
+	font-size: 2.6rem;
 }
 .yearly {
-    padding-left: 3rem;
+	padding-left: 3rem;
 }
 .monthly {
-    padding-left: 1.5rem;
+	padding-left: 1.5rem;
 }
+.calc {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.plans h4 {
+    
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	font-size: 2rem;
+}
+.price {
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+.mounth {
+	font-size: 0.8rem;
+	padding-bottom: 4rem;
+	color: rgba(128, 128, 128, 0.479);
+}
+ul {
+	padding-bottom: 1rem;
+}
+ul li {
+	list-style: none;
+	font-size: 0.8rem;
+	padding-bottom: 1rem;
+}
+ul li::before {
+	content: "\2022";
+	padding-right: 0.5rem;
+}
+.user {
+	text-align: center;
+	font-size: 0.8rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(128, 128, 128, 0.479);
+	border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+	font-weight: bold;
+}
+.or{
+    padding-top: 1rem;
+}
+.border-plans {
+    border: 1px solid rgba(128, 128, 128, 0.479);
 
-/* end main */
+
+}
+/* end main  */
