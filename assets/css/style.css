@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.debug * {
+	border: 1px dashed black;
+}
+.debug header {
+	min-height: 100px;
+	background-color: red;
+}
+.debug main {
+	min-height: 1000px;
+	background-color: green;
+}
+.debug footer {
+	min-height: 100px;
+	background-color: blue;
+}
