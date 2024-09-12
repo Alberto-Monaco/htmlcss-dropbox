@@ -27,6 +27,7 @@
 /* utilities  */
 .d-flex {
 	display: flex;
+	align-items: center;
 }
 .container-width {
 	padding-top: 5rem;
@@ -299,6 +300,7 @@ header {
 }
 .operations p {
 	font-size: 0.8rem;
+	
 }
 .business h3 {
 	padding-bottom: 4rem;
@@ -307,20 +309,23 @@ header {
 .business {
 	padding-top: 7rem;
 }
-.img-left {
 
-	width: calc((100% / 12) * 4);
-}
 
 
 
 .wrap{
 	flex-wrap: wrap;
 }
-.img-left{
+
+
+.business img{
+	width: 50%;
 	aspect-ratio: 1/1;
-	width: 200px;
-	background-color: #0071e3;
-	padding: 4rem;
+	padding: 2rem
 }
 
+.icon-center img{
+
+	width: 50%;
+	aspect-ratio: 1/1;
+}
