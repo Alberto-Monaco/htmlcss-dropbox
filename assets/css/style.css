@@ -42,7 +42,7 @@
 	flex-wrap: wrap;
 	margin: 0 -1rem;
 }
-[class*="col-"] {
+[class*="col"] {
 	padding: 1rem;
 }
 .col-1 {
@@ -305,5 +305,13 @@ header {
 	font-size: 2rem;
 }
 .business{
-	margin-top: 7rem;
+	padding-top: 7rem;
+	margin-bottom: 5rem;
+}
+.container-icon{
+
+}
+
+svg{
+	max-width: 400px;
 }
