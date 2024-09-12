@@ -26,6 +26,7 @@
 
 /* utilities  */
 .d-flex {
+	margin-top: 5rem;
 	display: flex;
 }
 .container-width {
@@ -307,9 +308,9 @@ header {
 .business {
 	padding-top: 7rem;
 }
-.container-icon {
-	margin-top: 5rem;
-	margin-left: 0rem;
+.img-left {
+
+	width: calc((100% / 12) * 4);
 }
 
 .svg-left {
@@ -317,17 +318,35 @@ header {
 	background-color: #0071e3;
 	align-items: center;
 	aspect-ratio: 1/1;
-	padding: 2.4rem 1rem;
+	padding: 2rem 1rem;
 
-	aspect-ratio: 1/1;
 }
 .stretch {
 	justify-content: stretch;
 }
 .svg-center {
-	width: calc((100% / 12) * 9);
-
-	align-items: center;
+	width: calc((100% / 12) * 12);
 	padding: 2rem;
 	padding-top: 4rem;
+	padding-right: 2rem;
 }
+.img-center {
+	width: calc((100% / 12) * 4);
+	padding: 3rem;
+	p {
+		padding-top: 2rem;
+		padding-left: 2rem;
+	}
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.svg-right {
+	width: calc((100% / 12) * 6);
+	background-color: #0071e3;
+	align-items: center;
+	aspect-ratio: 1/1;
+	padding: 2rem 1rem;
+
+}
+
