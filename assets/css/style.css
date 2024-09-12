@@ -25,7 +25,7 @@
 /* endDEBUG */
 
 /* utilities  */
-.d-flex{
+.d-flex {
 	display: flex;
 }
 .container-width {
@@ -261,10 +261,28 @@ header {
 .margin-top {
 	margin-top: 2rem;
 }
-.contact{
+.contact {
 	font: bolder;
 	font-size: 18px;
 }
 .plans {
 	padding: 2rem 0;
+}
+.partners {
+	padding: 5rem 0;
+}
+
+.partners {
+	h4 {
+		padding-top: 2rem;
+	}
+	p {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.button {
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+	}
 }
