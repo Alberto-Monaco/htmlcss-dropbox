@@ -208,6 +208,7 @@ header {
 }
 .border-plans {
 	border: 1px solid rgba(128, 128, 128, 0.479);
+	padding: 1rem;
 }
 .plans h5 {
 	padding-top: 4rem;
@@ -221,7 +222,7 @@ header {
 
 .points-container ul {
 	list-style-type: none;
-	padding-left: 0.5rem;
+	
 }
 .justify-content-between {
 	justify-content: space-between;
@@ -251,4 +252,10 @@ header {
 .button-container {
 	margin-top: -4rem;
 	margin-right: 3rem;
+}
+.points-title{
+	padding-left: 0.5rem;
+}
+.margin-top{
+	margin-top: 2rem;
 }
