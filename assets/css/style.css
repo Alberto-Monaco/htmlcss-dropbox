@@ -313,24 +313,21 @@ header {
 }
 
 .svg-left {
-	width: calc((100% / 12) *1);
-	
+	width: calc((100% / 12) * 6);
 	background-color: #0071e3;
 	align-items: center;
-	padding: 2rem;
-	padding-top: 4rem;
-	width: 200px;
-	height: 200px;
+	aspect-ratio: 1/1;
+	padding: 2.4rem 1rem;
 
+	aspect-ratio: 1/1;
 }
-.stretch{
+.stretch {
 	justify-content: stretch;
 }
 .svg-center {
-	width: calc((100% / 12) *9);
+	width: calc((100% / 12) * 9);
 
 	align-items: center;
 	padding: 2rem;
 	padding-top: 4rem;
-
 }
