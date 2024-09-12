@@ -25,6 +25,9 @@
 /* endDEBUG */
 
 /* utilities  */
+.d-flex{
+	display: flex;
+}
 .container-width {
 	padding-top: 5rem;
 	max-width: 75%;
