@@ -26,7 +26,6 @@
 
 /* utilities  */
 .d-flex {
-	align-items: center;
 	display: flex;
 }
 .container-width {
@@ -313,42 +312,15 @@ header {
 	width: calc((100% / 12) * 4);
 }
 
-.svg-left {
-	width: calc((100% / 12) * 6);
-	background-color: #0071e3;
-	align-items: center;
-	aspect-ratio: 1/1;
-	padding: 2rem 1rem;
-
-}
-.stretch {
-	justify-content: stretch;
-}
-.svg-center {
-	width: calc((100% / 12) * 6);
-	padding-left: 2rem;
 
 
-
-	aspect-ratio: 1/1;
-	align-items: center;
-}
-.img-center {
-	width: calc((100% / 12) * 4);
-
-}
 .wrap{
 	flex-wrap: wrap;
 }
-.svg-right {
-	width: calc((100% / 12) * 6);
-	background-color: #0071e3;
-	align-items: center;
+.img-left{
 	aspect-ratio: 1/1;
-	padding: 2rem 1rem;
-
-}
-.img-center p{
-	padding-left: 3rem;
+	width: 200px;
+	background-color: #0071e3;
+	padding: 4rem;
 }
 
