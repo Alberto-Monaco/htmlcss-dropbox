@@ -309,9 +309,15 @@ header {
 	margin-bottom: 5rem;
 }
 .container-icon{
+	margin-top: 5rem;
+	margin-left: 1rem;
 
 }
 
 svg{
-	max-width: 400px;
+	width: calc((100% / 12) * 4);
+
+	align-items: center;
+
+
 }
