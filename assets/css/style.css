@@ -37,10 +37,10 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -0.5rem;
+	margin: 0 -1rem;
 }
 [class*="col-"] {
-	padding: 0.5rem;
+	padding: 1rem;
 }
 .col-1 {
 	width: calc((100% / 12) * 1);
@@ -222,7 +222,6 @@ header {
 
 .points-container ul {
 	list-style-type: none;
-	
 }
 .justify-content-between {
 	justify-content: space-between;
@@ -253,9 +252,16 @@ header {
 	margin-top: -4rem;
 	margin-right: 3rem;
 }
-.points-title{
+.points-title {
 	padding-left: 0.5rem;
 }
-.margin-top{
+.margin-top {
 	margin-top: 2rem;
+}
+.contact{
+	font: bolder;
+	font-size: 18px;
+}
+.plans {
+	padding: 2rem 0;
 }
