@@ -304,20 +304,33 @@ header {
 	padding-bottom: 4rem;
 	font-size: 2rem;
 }
-.business{
+.business {
 	padding-top: 7rem;
-	margin-bottom: 5rem;
 }
-.container-icon{
+.container-icon {
 	margin-top: 5rem;
-	margin-left: 1rem;
-
+	margin-left: 0rem;
 }
 
-svg{
-	width: calc((100% / 12) * 4);
+.svg-left {
+	width: calc((100% / 12) *1);
+	
+	background-color: #0071e3;
+	align-items: center;
+	padding: 2rem;
+	padding-top: 4rem;
+	width: 200px;
+	height: 200px;
+
+}
+.stretch{
+	justify-content: stretch;
+}
+.svg-center {
+	width: calc((100% / 12) *9);
 
 	align-items: center;
-
+	padding: 2rem;
+	padding-top: 4rem;
 
 }
