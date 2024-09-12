@@ -26,7 +26,7 @@
 
 /* utilities  */
 .d-flex {
-	margin-top: 5rem;
+	align-items: center;
 	display: flex;
 }
 .container-width {
@@ -325,18 +325,17 @@ header {
 	justify-content: stretch;
 }
 .svg-center {
-	width: calc((100% / 12) * 12);
-	padding: 2rem;
-	padding-top: 4rem;
-	padding-right: 2rem;
+	width: calc((100% / 12) * 6);
+	padding-left: 2rem;
+
+
+
+	aspect-ratio: 1/1;
+	align-items: center;
 }
 .img-center {
 	width: calc((100% / 12) * 4);
-	padding: 3rem;
-	p {
-		padding-top: 2rem;
-		padding-left: 2rem;
-	}
+
 }
 .wrap{
 	flex-wrap: wrap;
@@ -348,5 +347,8 @@ header {
 	aspect-ratio: 1/1;
 	padding: 2rem 1rem;
 
+}
+.img-center p{
+	padding-left: 3rem;
 }
 
