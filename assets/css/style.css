@@ -272,7 +272,8 @@ header {
 	padding: 5rem 0;
 }
 
-.partners, .operations {
+.partners,
+.operations {
 	h4 {
 		padding-top: 1rem;
 	}
@@ -286,16 +287,23 @@ header {
 		border: 1px solid black;
 	}
 }
-.operations h3{
+.operations h3 {
 	padding-bottom: 4rem;
-	font-size: 2.6rem;
+	font-size: 2rem;
 }
 
-.operations .border{
+.operations .border {
 	margin-top: 2rem;
 
-	padding:rem;
+	padding: rem;
 }
 .operations p {
 	font-size: 0.8rem;
+}
+.business h3 {
+	padding-bottom: 4rem;
+	font-size: 2rem;
+}
+.business{
+	margin-top: 7rem;
 }
