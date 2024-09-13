@@ -421,7 +421,12 @@ header {
 		text-decoration: none;
 		color: white;
 	}
-	ul{
+	ul {
 		padding-bottom: 5rem;
+	}
+
+	p {
+		color: white;
+		font-size: 0.8rem;
 	}
 }
