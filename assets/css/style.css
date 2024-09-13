@@ -378,10 +378,29 @@ header {
 
 .comeon h3 {
 	padding-bottom: 2rem;
-	padding-top: 2rem;
 	font-size: 1.6rem;
 }
 .faq {
 	padding-top: 3rem;
-	background-color: #d5001f;
+	padding-bottom: 3rem;
 }
+
+.faq h3 {
+	padding-bottom: 2rem;
+}
+
+.faq h4 {
+	font-size: 0.6rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.menu {
+	display: none;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+	background-color: #fff;
+	font-size: 0.6rem;
+}
+.question-header:hover + .menu {
+	display: inline-block;
+}
+
