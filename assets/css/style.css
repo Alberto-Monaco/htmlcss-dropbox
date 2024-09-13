@@ -381,7 +381,8 @@ header {
 	font-size: 1.6rem;
 }
 .faq {
-	padding-top: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 	padding-bottom: 3rem;
 }
 
@@ -396,11 +397,31 @@ header {
 }
 .menu {
 	display: none;
-	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
 	background-color: #fff;
 	font-size: 0.6rem;
 }
-.question-header:hover + .menu {
-	display: inline-block;
+.question-header:active + .menu {
+	display: block;
 }
+.site-footer {
+	background-color: black;
 
+	h4 {
+		color: white;
+		padding-bottom: 0.5rem;
+		font-size: 1rem;
+	}
+	li {
+		font-size: 0.8rem;
+		list-style-type: none;
+		padding-top: 0.4rem;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	ul{
+		padding-bottom: 5rem;
+	}
+}
