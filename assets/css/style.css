@@ -334,34 +334,34 @@ header {
 	padding: 2rem;
 }
 .icon-designit {
-	border: rgb(149, 201, 6) 7px solid;
-	background-color: greenyellow;
+	border: #d1e9cd 7px solid;
+	background-color: #a2d39b;
 	color: white;
 }
 .icon-arizona {
-	background-color: rgb(126, 41, 41);
+	background-color: #61082b;
 }
 .icon-florida {
-	background-color: rgb(40, 118, 221);
+	background-color: #0093ce;
 }
 .icon-topps {
-	background-color: rgb(255, 0, 0);
+	background-color: #ff1c1c;
 }
 .icon-world {
-	background-color: rgb(248, 70, 70);
+	background-color: #d5001f;
 }
 .icon-heart {
-	background-color: rgb(150, 225, 255);
+	background-color: #b4d0e7;
 }
 .icon-lonely {
-	background-color: rgb(48, 40, 158);
+	background-color: #0d2481;
 }
 .icon-clear {
-	background-color: rgb(255, 231, 17);
+	background-color: #ffd830;
 	width: 100%;
 }
 .img-center {
-	background-color: rgb(204, 204, 204);
+	background-color: #f5f5f5;
 	margin: 1rem -1rem;
 }
 .comeon .button {
