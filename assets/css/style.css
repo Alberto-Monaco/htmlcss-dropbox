@@ -375,3 +375,11 @@ header {
 .bg-color-white {
 	background-color: white;
 }
+.comeon{
+	padding-top: 5rem;
+	padding-bottom: 4rem;
+}
+.comeon h3 {
+	padding-bottom: 4rem;
+	font-size: 1.6rem;
+}
