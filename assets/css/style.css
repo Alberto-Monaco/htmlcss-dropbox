@@ -419,14 +419,14 @@ header {
 	}
 	a {
 		text-decoration: none;
-		color: white;
+		color: rgba(255, 255, 255, 0.877);
 	}
 	ul {
 		padding-bottom: 5rem;
 	}
 
 	p {
-		color: white;
+		color: rgba(255, 255, 255, 0.555);
 		font-size: 0.8rem;
 	}
 }
